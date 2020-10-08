@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/avaliacao.css"/>
+<script type="text/javascript" src="js/avaliacao.js">
+    
+</script>
+
+
+<body>
+    <form name="op" action="">
+        <fieldset>
+            <legend> Questão 4 </legend>
+            <label for="valor1">Valor 1:</label>
+
+            <input type="text" name="valor1" id="valor1"/>
+                
+            <label for="op">Selecione a opção de parcelamento:</label>
+            <select name="opcoes" id="opcoes">
+                <option value="tresx">3 vezes</option>
+                <option value="cincox">5 vezes</option>
+                
+
+            </select>
+
+            <label for="Parcelas">Parcelas: </label>
+        
+            <input type="Text" name="parcelas" id="parcelas"/>
+        
+            <label for="Total">Total: </label>
+        
+            <input type="Text" name="total" id="total" class="resultado"/>
+            
+        
+        
+            <input type"button" value="Calcular" class="botao" onclick="calcularQuestao4(opcoes.value)"/>
+            <input type"button" value="Apagar" class="botao" onclick="apagarQuestao4()"/>
+
+
+        </fieldset>
+    </form>
+</body>
+
+
+</html>
